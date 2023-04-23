@@ -1,22 +1,24 @@
 import Home from "./pages/Home";
+import Bags from "./pages/Bags";
+import Sneakers from "./pages/Sneakers";
+import Belts from "./pages/Belts";
+import Login from "./pages/auth/Login";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-
-
-
 function App() {
-  return (
 
+  return (
     <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-
+          <Route path="/bags" element={<Bags />} />
+          <Route path="/sneakers" element={<Sneakers />} />
+          <Route path="/belts" element={<Belts />} />
+          <Route path="/auth/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
-
     </>
 
-
-  )
+  );
 }
 export default App
