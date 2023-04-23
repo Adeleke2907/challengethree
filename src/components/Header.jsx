@@ -3,6 +3,8 @@ import logo from "../assets/image.png";
 import { Link } from "react-router-dom";
 import { GrClose } from "react-icons/gr";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
+
+
 const Header = () => {
     const [mobileIcon, setMobileIcon] = useState(false);
     const mobileHandler = () => {
@@ -17,7 +19,7 @@ const Header = () => {
             </Link>
 
 
-            <div onClick={mobileHandler} className="block md:hidden">
+            <div onClick={mobileHandler} className="grid md:visible">
                 {mobileIcon ? (
                     <GrClose className="text-[30px]" />
                 ) : (
@@ -40,12 +42,12 @@ const Header = () => {
                         <Link to="/belts">BELTS</Link>
                     </li>
                     <li>
-                        <Link to="/login">CONTACT</Link>
+                        <Link to="/auth/login">CONTACT</Link>
                     </li>
                 </nav>
             )}
 
-            <nav className="md:flex md:visible invisible gap-20">
+            <nav className="justify-center items-center md:flex">
                 <ul className="flex gap-20 text-[#000000] cursor-pointer">
                     <li className="text-[#40BFFF]">
                         <Link to="/">HOME</Link>
@@ -60,7 +62,7 @@ const Header = () => {
                         <Link to="/belts">BELTS</Link>
                     </li>
                     <li>
-                        <Link to="/login">CONTACT</Link>
+                        <Link to="/auth/login">CONTACT</Link>
                     </li>
 
                 </ul>

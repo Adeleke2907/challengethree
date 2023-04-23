@@ -13,7 +13,7 @@ const Addidas = () => {
             <div
                 style={{
                     backgroundImage: `url(${Image})`,
-                    backgroungSize: 'cover',
+
                 }}>
                 <h3 className='text-white pt-[200px] pb-[20px] pl-[60px] text-[64px] items-center'>Adidas Men Runnings<br />Sneakers</h3>
                 <p className='text-[#FFFFFF] pl-[60px] text-[24px]'>Performance and design. Taken right to the edge.</p>

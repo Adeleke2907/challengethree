@@ -14,7 +14,7 @@ const Latest = () => {
 
     return (
         <>
-            <div className='flex pt-[50px]'>
+            <div className='flex pt-[50px]  content-center justify-center '>
                 <div className='pl-[120px] pr-[120px]'>
                     <div className='content-center justify-center flex pb-[50px]'>
                         <img src={image1} alt="logo" />
@@ -45,7 +45,7 @@ const Latest = () => {
                 <h3 className='text-[34px] content-center justify-center flex pt-[50px] pb-[50px]'>LATEST NEWS</h3>
             </div>
 
-            <div className='flex pb-[50px]'>
+            <div className='flex pb-[50px] content-center justify-center '>
                 <div className='flex pl-[60px] pr-[50px]'>
                     <div className='pt-[50px]'>
                         <img src={image4} alt="logo" />
@@ -57,7 +57,7 @@ const Latest = () => {
                     </div>
                 </div>
 
-                <div className='flex pl-[50px] pr-[50px]'>
+                <div className='flex pl-[50px] pr-[50px] '>
                     <div className='pt-[50px]'>
                         <img src={image5} alt="logo" />
                     </div>

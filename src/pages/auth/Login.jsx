@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+
 
 
 function Login() {
@@ -6,10 +9,13 @@ function Login() {
     return (
         <>
 
+            <Header />
+            <div className=' pt-[200px] pb-[50px] pl-[60px]'>
 
-            this is login
+                this is login
+            </div>
 
-
+            <Footer />
 
         </>
     )

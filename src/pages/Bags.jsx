@@ -6,7 +6,7 @@ const Bags = () => {
     return (
         <>
             <Header />
-            <div className=' pt-[200px] pb-[50px]'>
+            <div className=' pt-[200px] pb-[50px] pl-[60px]'>
                 This is bags
             </div>
             <Footer />

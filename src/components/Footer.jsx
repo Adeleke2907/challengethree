@@ -9,10 +9,11 @@ import Card3 from "../assets/Paypal.png";
 import Card1 from "../assets/Westernunion.png";
 
 
+
 function Footer() {
 
     return (
-        <footer className='bg-[#BCDDFE] hiding'>
+        <footer className='bg-[#BCDDFE] hiding pt-[30px]'>
             <div className='flex justify-between items-center pr-[200px] pl-[60px] pt-[50px] w-full md-grid'>
                 <div className='text-[#22262A] text-[10px] font-light lg:text-[14px]'>
                     <img src={logo} alt="" />
