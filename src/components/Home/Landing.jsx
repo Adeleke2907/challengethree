@@ -13,7 +13,7 @@ const Landing = () => {
                     backgroundImage: `url(${Promo})`,
                     backgroungSize: 'cover',
                 }}>
-                <h3 className='text-white pt-[300px] pb-[166px] pl-[60px] text-[64px] items-center'>Super Flash Sale<br />50% Off</h3>
+                <h3 className='text-white pt-[200px] pb-[160px] pl-[60px] text-[64px] items-center'>Super Flash Sale<br />50% Off</h3>
             </div >
 
 
