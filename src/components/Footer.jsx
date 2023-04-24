@@ -14,13 +14,13 @@ function Footer() {
 
     return (
         <footer className='bg-[#BCDDFE] hiding pt-[30px]'>
-            <div className='flex justify-between items-center pr-[200px] pl-[60px] pt-[50px] w-full md-grid'>
-                <div className='text-[#22262A] text-[10px] font-light lg:text-[14px]'>
+            <div className='grid md:flex justify-between items-center pr-[200px] pl-[60px] pt-[50px] w-full md-grid'>
+                <div className='text-[#22262A] text-[10px] font-light lg:text-[14px] '>
                     <img src={logo} alt="" />
                     <br />
                     <p className='text-[12px] font-light'>Lorem Ipsum is simply dummy text of the <br />printing and typesetting industry. Lorem<br /> Ipsum has been the industry's standard, <br />dummy text ever.Since the 1500s when <br />an unknown printer.</p>
                 </div>
-                <div className='text-[#22262A] text-[10px] font-light lg:text-[18px]'>
+                <div className='text-[#22262A] text-[10px] font-light lg:text-[18px] pt-[20px]'>
                     <p >Follow Us<br /><span className='text-[12px] font-light'>Since the 1500s, when an unknown <br />printer took a galley of type and <br />scrambled.</span></p>
                     <span className='flex justify-between pr-[150px] pt-[10px]'>
                         <img src={facebook} alt="" />
@@ -28,12 +28,12 @@ function Footer() {
                     </span>
 
                 </div>
-                <div className='text-[#22262A] text-[10px] font-light lg:text-[18px]'>
+                <div className='text-[#22262A] text-[10px] font-light lg:text-[18px] pt-[20px]'>
                     <p >Contact Us <br /> <br /><span className='text-[12px] font-light'>E-Comm , 4578 <br />Marmora Road, <br />Glasgow D04 89GR</span></p>
                 </div>
             </div>
 
-            <div className='flex justify-between items-center pr-[100px] pl-[60px] pt-[50px] w-full md-grid'>
+            <div className='grid md:flex justify-between items-center pr-[100px] pl-[60px] pt-[50px] w-full md-grid'>
                 <div className='text-[#22262A] text-[10px] font-light lg:text-[18px]'>
                     <p >Infomation <br /> <br /><span className='text-[12px] font-light'>About Us<br />Infomation<br />Privacy Policy<br />Terms & Conditions</span></p>
                 </div>
@@ -48,7 +48,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div className='flex justify-center pt-[50px] pb-[50px] gap-3'>
+            <div className='flex justify-end pt-[50px] pb-[30px] pr-[90px] gap-3'>
                 <img src={Card1} alt="card1" />
                 <img src={Card2} alt="card2" />
                 <img src={Card3} alt="card3" />
