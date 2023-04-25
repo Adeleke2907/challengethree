@@ -17,11 +17,11 @@ const Addidas = () => {
                     backgroundImage: `url(${Image})`,
 
                 }}>
-                <h3 className='text-white pt-[200px] pb-[20px] pl-[60px] text-[64px] items-center'>Adidas Men Runnings<br />Sneakers</h3>
-                <p className='text-[#FFFFFF] pl-[60px] text-[24px]'>Performance and design. Taken right to the edge.</p>
+                <h3 className='text-white pt-[200px] pb-[20px] pl-[20px] md:pl[60px] text-[50px] md:-[64px] items-center'>Adidas Men Runnings<br />Sneakers</h3>
+                <p className='text-[#FFFFFF] pl-[20px] md:pl[60px] text-[24px]'>Performance and design. Taken right to the edge.</p>
                 <div className='pt-[30px] '>
                     <Link to="/Producttools">
-                        <h3 className='text-[#FFFFFF] text-[20px] pl-[60px]'>SHOP NOW</h3>
+                        <h3 className='text-[#FFFFFF] text-[20px] pl-[20px] md:pl[60px]'>SHOP NOW</h3>
                     </Link>
                     <div className='pl-[60px]'>
                         <img className='pb-[50px]' src={Image1} alt="logo" />

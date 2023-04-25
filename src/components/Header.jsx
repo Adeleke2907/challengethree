@@ -7,10 +7,6 @@ import { AiOutlineUser } from "react-icons/ai";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { AiOutlineSearch } from "react-icons/ai";
 import { IoMdArrowDropdown } from "react-icons/io";
-import Arrowdown from "../assets/arrowdown.png";
-import Profile from "../assets/profile.png";
-import Cart from "../assets/Cart.png";
-import Search from "../assets/search.png";
 
 const Header = () => {
     const [mobileIcon, setMobileIcon] = useState(false);

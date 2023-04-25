@@ -14,14 +14,14 @@ const Landing = () => {
         <div className=''>
             <div className=''>
                 <div
-                    className='bg-cover bg-no-repeat w-full'
+                    className='bg-cover bg-no-repeat w-full md:w-full'
                     style={{
                         backgroundImage: `url(${Promo})`,
                         //     backgroundRepeat: "no-repeat",
                         //     backgroundSize: "cover",
                     }}
                 >
-                    <h3 className=" text-white pt-[150px] pb-[200px] pl-[60px] text-[64px] items-center">Super Flash Sale<br />50% Off</h3>
+                    <h3 className=" text-white pt-[150px] pb-[200px] pl-[10px] md:pl-[60px] text-[50px] md:text-[60px] items-center">Super Flash Sale<br />50% Off</h3>
                 </div >
             </div>
 
