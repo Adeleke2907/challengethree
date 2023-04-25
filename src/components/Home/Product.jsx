@@ -5,7 +5,7 @@ import image3 from "../../assets/Rectangle6.png";
 import image4 from "../../assets/imageProduct3.png";
 import image5 from "../../assets/imageProduct4.png";
 import image6 from "../../assets/imageProduct5.png";
-import image7 from "../../assets/product6.png";
+import image7 from "../../assets/Product6.png";
 import { IoMdArrowDropdown } from "react-icons/io";
 import image8 from "../../assets/Product2.png";
 import image9 from "../../assets/Product3.png";
