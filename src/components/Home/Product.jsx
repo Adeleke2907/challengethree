@@ -25,12 +25,12 @@ function Product() {
         <>
 
             <div>
-                <div className='pt-[30px] md:pt-[5px]'>
-                    <div className='text-[#22262A] text-[18px] text-center w-full md:w-full bg-[#F6F7F8] py-1.5'>
+                <div className='pt-[5px] '>
+                    <div className='text-[#22262A] text-[18px] text-center w-full bg-[#F6F7F8] py-1.5'>
                         <p><span className='text-[#33A0FF]'>Home</span>&nbsp;<span className='text-[#33A0FF]'> Hot Deal &nbsp;</span> <span className='text-[#262626]'>Nike Airmax 270 React</span></p>
                     </div>
 
-                    <div className='grid md:flex pt-[42.28px] pl-[50px] md:pl-[150px] pr-[150px] gap-10'>
+                    <div className='flex pt-[42.28px] pl-[150px] pr-[150px] gap-10'>
                         <div className='px-[-50px]'>
                             <img src={image1} alt="logo" />
                         </div>
@@ -38,7 +38,7 @@ function Product() {
 
                         <div>
                             <h4>Nike Airmax 270 React</h4>
-                            <div className='md:flex grid pt-[10px]'>
+                            <div className='flex pt-[10px]'>
                                 <div >
                                     <img className='pt-[3px] ' src={rating} alt="logo" />
                                 </div>
@@ -67,12 +67,12 @@ function Product() {
 
                             <div className='pt-[30px] flex '>
                                 <p className='pr-[80px]'>Size</p>
-                                <p className='text-[12px] outline-none border-[2px] border-[#F1F3F4] flex md:pr-5 md:py-1 content-center justify-center gap-12 pl-[10px] pt-[5px]'> XS<span className='pt-[3px]'> <IoMdArrowDropdown /> </span></p>
+                                <p className='text-[12px] outline-none border-[2px] border-[#F1F3F4] flex pr-5 py-1 content-center justify-center gap-12 pl-[10px] pt-[5px]'> XS<span className='pt-[3px]'> <IoMdArrowDropdown /> </span></p>
                             </div>
 
                         </div>
 
-                        <div className='pb-[20px] md:pb-[50px] w-fit' >
+                        <div className='pb-[50px] w-fit' >
                             <h4 className='pb-[20px]'>BEST SELLER</h4>
                             <div className='border-[3px] border-[#F6F7F8]'>
                                 <img src={image2} alt="logo" />
@@ -85,8 +85,8 @@ function Product() {
                     </div>
                 </div>
 
-                <div className='flex md:grid '>
-                    <div className='grid md:flex pl-[50px] md:pl-[150px]'>
+                <div className='grid '>
+                    <div className='flex pl-[150px]'>
                         <div className='flex gap-3'>
                             <img className='w-[20%] h-[100%]' src={image8} alt="logo" />
                             <img className='w-[20%] h-[100%] ' src={image9} alt="logo" />
@@ -94,14 +94,14 @@ function Product() {
                             <img className='w-[20%] h-[100%]' src={image10} alt="logo" />
                         </div>
                         <div className='pr-[150px] pt-[40px]'>
-                            <p className='text-[12px] outline-none border-[2px] border-[#F1F3F4] flex content-center justify-center md:py-1  pl-[7px] pt-[5px] pr-[7px] gap-12'><span>-</span> <span>2</span><span>+</span></p>
+                            <p className='text-[12px] outline-none border-[2px] border-[#F1F3F4] flex content-center justify-center py-1  pl-[7px] pt-[5px] pr-[7px] gap-12'><span>-</span> <span>2</span><span>+</span></p>
                         </div>
                         <div className='pr-[150px] pt-[40px]'>
                             <p className='text-[12px] outline-none border-[2px] border-[#F1F3F4] bg-[#33A0FF] px-5 pt-[5px] pb-[5px] flex gap-5'><span><AiOutlineUser /></span><span className='flex'>Add&nbsp;To&nbsp;Cart</span></p>
                         </div>
                     </div>
 
-                    <div className='grid content-center justify-center gap-5 pt-[40px] text-[white] md:flex'>
+                    <div className='content-center justify-center gap-5 pt-[40px] text-[white] flex'>
                         <div className='text-[12px] outline-none border-[2px] border-[#F1F3F4] bg-[#33A0FF] rounded-[5px] px-12 pt-[5px] pb-[5px] flex gap-5' >
                             <img src={facebook} alt="logo" />
                             <p>Share&nbsp;on&nbsp;Facebook</p>
@@ -113,7 +113,7 @@ function Product() {
                     </div>
                 </div>
 
-                <div className='bg-[#F6F7F8] mt-[50px] md:mr-[150px] mr-[10px] md:ml-[150px] ml-[10px] pr-[10px] pl-[10px] pb-[10px]'>
+                <div className='bg-[#F6F7F8] mt-[50px] mr-[150px] ml-[150px] pr-[10px] pl-[10px] pb-[10px]'>
                     <div className='text-[#22262A] text-[18px] content-center justify-center text-center  pb-[20px] pt-[20px] border-[#E5E8EA]'>
                         <p><span className='text-[#33A0FF] gap-5'>Product Infomation</span>&nbsp;&nbsp;<span className='text-[#262626]'>&nbsp;Reviews&nbsp;<span className='text-[16px] text-[#262626]'>0</span> &nbsp;</span> <span className='text-[#262626]'>Another tab</span></p>
                         <img className='' src={line} alt="logo" />

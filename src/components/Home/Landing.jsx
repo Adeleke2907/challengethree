@@ -21,12 +21,12 @@ const Landing = () => {
                         //     backgroundSize: "cover",
                     }}
                 >
-                    <h3 className=" text-white pt-[150px] pb-[200px] pl-[10px] md:pl-[60px] text-[50px] md:text-[60px] items-center">Super Flash Sale<br />50% Off</h3>
+                    <h3 className=" text-white pt-[150px] pb-[200px] pl-[60px] text-[60px] items-center">Super Flash Sale<br />50% Off</h3>
                 </div >
             </div>
 
 
-            <div className='relative hidden md:flex  justify-center items-center pb-[300px]'>
+            <div className='relative justify-center items-center pb-[300px] pl-[40px]'>
                 <div className='absolute flex justify-center items-center top-[-100px]'>
                     <div
                         style={{

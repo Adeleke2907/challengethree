@@ -66,7 +66,7 @@ const Header = () => {
                         <img src={logo} alt="logo" />
                     </Link>
 
-                    <div onClick={mobileHandler} className="visible md:hidden">
+                    <div onClick={mobileHandler} className="hidden md:visible">
                         {mobileIcon ? (
                             <GrClose className="text-[30px]" />
                         ) : (
@@ -100,7 +100,7 @@ const Header = () => {
 
 
 
-                    <nav className="hidden md:flex md:visible justify-center items-center">
+                    <nav className="visible md:hidden justify-center items-center">
                         <ul className="flex gap-10 text-[#000000] cursor-pointer">
                             <li className="text-[#40BFFF]">
                                 <Link to="/">HOME</Link>
