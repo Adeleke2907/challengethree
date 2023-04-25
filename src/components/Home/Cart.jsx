@@ -56,7 +56,7 @@ const Cart = () => {
                             <p className='text-[#262626] text-[18px] pt-[5px] content-center gap-12 flex'><span>Subtotal:</span><span className="pl-[50px]">$998</span></p>
                             <p className='text-[#262626] text-[18px] pt-[5px] content-center gap-12 flex'>Shipping fee:<span className="pl-[15px]">$20</span></p>
                             <p className='text-[#262626] text-[18px] pt-[5px] content-center gap-12 flex'>Coupon:<span className="pl-[53px]">No</span></p>
-                            <h3 className='text-[#262626] text-[30px] pt-[5px] content-center gap-12 flex'>TOTAL<span className="pl-[38px]">$118</span></h3>
+                            <h3 className='text-[#262626] text-[30px] pt-[5px] content-center gap-12 flex'>TOTAL<span className="pl-[38px]">$1018</span></h3>
                             <div className='text-[18px] outline-none border-[2px] text-[#FFFFFF] bg-[#33A0FF] rounded-[5px] py-2 pl-[70px]'>Check out</div>
                         </div>
 

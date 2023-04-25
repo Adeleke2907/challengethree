@@ -44,7 +44,7 @@ const Landing = () => {
                             <h6 className='content-center justify-center flex text-[20px] text-[#223263] pl-[20px] pt-[20px]' >FS - FS - Nike Air <br />Max 270 React...</h6>
                             <p className='text-[#40BFFF] text-[30px] pl-[110px] pt-[20px] pr-[10px]'>$299,43</p>
                         </div>
-                        <p className='text-[#9098B1] text-[18px] content-center justify-center flex gap-3 pt-[250px]'>$534,33<span className='text-[#9098B1] text-[18px] text-[#FB7181]'>24% Off</span></p>
+                        <p className='text-[#9098B1] text-[18px] content-center justify-center flex gap-3 pt-[250px]'>$534,33<span className='text-[18px] text-[#FB7181]'>24% Off</span></p>
 
                     </div>
 
