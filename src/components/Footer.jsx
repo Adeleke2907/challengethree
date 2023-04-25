@@ -14,7 +14,7 @@ function Footer() {
 
     return (
         <footer className='bg-[#BCDDFE] hiding pt-[30px]'>
-            <div className='grid md:flex justify-between items-center pr-[200px] pl-[60px] pt-[50px] w-full md-grid'>
+            <div className='grid md:flex justify-between items-center pr-[200px] pl-[60px] pt-[50px] w-full'>
                 <div className='text-[#22262A] text-[10px] font-light lg:text-[14px] '>
                     <img src={logo} alt="" />
                     <br />
@@ -33,7 +33,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div className='grid md:flex justify-between items-center pr-[100px] pl-[60px] pt-[50px] w-full md-grid'>
+            <div className='grid md:flex justify-between items-center pr-[100px] pl-[60px] pt-[50px] w-full'>
                 <div className='text-[#22262A] text-[10px] font-light lg:text-[18px]'>
                     <p >Infomation <br /> <br /><span className='text-[12px] font-light'>About Us<br />Infomation<br />Privacy Policy<br />Terms & Conditions</span></p>
                 </div>
