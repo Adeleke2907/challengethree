@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import { Link } from "react-router-dom";
-import Promo from "../../assets/Promotion.png";
 import image1 from "../../assets/imageProduct3.png"
 import rating from "../../assets/rate.png"
 import image2 from "../../assets/imageProduct4.png"

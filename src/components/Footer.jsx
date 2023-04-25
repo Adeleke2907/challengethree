@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import { Link } from "react-router-dom";
 import logo from "../assets/image.png";
 import facebook from "../assets/facebook.png";
 import twitter from "../assets/twitter.png";

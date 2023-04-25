@@ -1,7 +1,4 @@
-import { useState } from 'react'
-import { Link } from "react-router-dom";
 import Promo from "../../assets/Promotion.png";
-import autoprefixer from 'autoprefixer';
 import Image1 from "../../assets/imageProduct6.png"
 import Image2 from "../../assets/imageProduct1.png"
 import Image3 from "../../assets/imageProduct2.png"

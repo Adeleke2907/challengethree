@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import image1 from "../../assets/imageProduct2.png";
 import image2 from "../../assets/imageProduct3.png";
 import rating from "../../assets/rate.png";
