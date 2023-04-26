@@ -11,8 +11,8 @@ import Card1 from "../assets/Westernunion.png";
 function Footer() {
 
     return (
-        <footer className='bg-[#BCDDFE] pt-[30px]'>
-            <div className='flex justify-between items-center pr-[200px] pl-[60px] pt-[50px] w-full'>
+        <footer className='bg-[#BCDDFE] pt-[30px] w-full'>
+            <div className=' flex justify-between items-center pr-[200px] pl-[60px] pt-[50px] w-full'>
                 <div className='text-[#22262A] text-[10px] font-light lg:text-[14px] '>
                     <img src={logo} alt="" />
                     <br />

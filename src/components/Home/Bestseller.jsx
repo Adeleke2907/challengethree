@@ -14,11 +14,11 @@ const Bestseller = () => {
 
     return (
         <>
-            <div className='pt-[50px] pb-[50px] pl-[40px] pr-[40px] w-full'>
+            <div className='pt-[30px] pb-[50px] pl-[40px] pr-[40px] w-full'>
                 <div className=''>
                     <h3 className='text-center text-[#22262A] text-[35px]'>BEST SELLER</h3>
                     <div className='text-[#22262A] text-[22px] text-center'>
-                        <p> <span className='text-[#33A0FF]'>All</span>&nbsp;&nbsp;  Bags &nbsp;&nbsp; Sneakers&nbsp;&nbsp;  Belt &nbsp;&nbsp; Sunglasses</p>
+                        <p className="p-2"> <span className='text-[#33A0FF]'>All</span>&nbsp;&nbsp;  Bags &nbsp;&nbsp; Sneakers&nbsp;&nbsp;  Belt &nbsp;&nbsp; Sunglasses</p>
                     </div>
                 </div>
 

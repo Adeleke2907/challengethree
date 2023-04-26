@@ -61,6 +61,8 @@ const Header = () => {
 
                     </ul>
                 </nav>
+
+                
                 <div className="flex justify-between px-[60px] py-5 items-center">
                     <Link to="/">
                         <img src={logo} alt="logo" />

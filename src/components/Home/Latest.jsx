@@ -12,8 +12,8 @@ const Latest = () => {
 
     return (
         <>
-            <div className='flex pt-[50px]  content-center justify-center gap-10'>
-                <div className='pl-[120px] pr-[120px]'>
+            <div className='flex flex-wrap pt-[50px] items-center justify-center gap-12'>
+                <div className='w-[300px]'>
                     <div className='content-center justify-center flex pb-[20px]'>
                         <img src={image1} alt="logo" />
                     </div>
@@ -21,7 +21,7 @@ const Latest = () => {
                     <p className='content-center justify-center flex text-[18px] text-center' >Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
 
-                <div className=' pl-[120px] pr-[120px]'>
+                <div className=' w-[300px]'>
                     <div className='content-center justify-center flex pb-[20px]'>
                         <img src={image2} alt="logo" />
                     </div>
@@ -29,7 +29,7 @@ const Latest = () => {
                     <p className='text-[18px] content-center justify-center flex text-center' >Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
 
-                <div className='pl-[120px] pr-[120px]'>
+                <div className='w-[300px]'>
                     <div className='content-center justify-center flex pb-[20px]'>
                         <img src={image3} alt="logo" />
                     </div>
@@ -40,12 +40,12 @@ const Latest = () => {
             </div>
 
             <div>
-                <h3 className='text-[34px] content-center justify-center flex pt-[50px] pb-[50px]'>LATEST NEWS</h3>
+                <h3 className='text-[34px] content-center justify-center flex pt-[50px]'>LATEST NEWS</h3>
             </div>
 
-            <div className='flex pb-[50px] content-center justify-center gap-5'>
-                <div className='flex pl-[60px] pr-[50px] '>
-                    <div className='pt-[50px] w-[40%]'>
+            <div className='flex flex-wrap pt-[30px] items-center justify-center '>
+                <div className='flex pl-[60px] pr-[50px] w-[400px]'>
+                    <div className='md:pt-[50px] md:w-[40%] '>
                         <img src={image4} alt="logo" className='w-full h-auto'/>
                     </div>
                     <div className='pl-[20px]'>
@@ -55,7 +55,7 @@ const Latest = () => {
                     </div>
                 </div>
 
-                <div className='flex pl-[50px] pr-[50px] '>
+                <div className='flex pl-[60px] pr-[50px] w-[400px] '>
                     <div className='pt-[50px] w-[40%]'>
                         <img src={image5} alt="logo"  className='w-full h-auto'/>
                     </div>
@@ -66,7 +66,7 @@ const Latest = () => {
                     </div>
                 </div>
 
-                <div className='flex pl-[50px] pr-[50px]'>
+                <div className='flex pl-[60px] pr-[50px] w-[400px]'>
                     <div className='pt-[50px] w-[40%]'>
                         <img src={image6} alt="logo"  className='w-full h-auto' />
                     </div>
