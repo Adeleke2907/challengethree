@@ -1,6 +1,6 @@
 import image1 from "../../assets/shipping.png";
 import image2 from "../../assets/Group11.png";
-import image3 from "../../assets/support.png";
+import image3 from "../../assets/Support.png";
 import image4 from "../../assets/Nikelogo.png";
 import image5 from "../../assets/figmalogo1.png";
 import image6 from "../../assets/kronoslogo.png";
