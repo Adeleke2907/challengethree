@@ -1,5 +1,5 @@
 import image1 from "../../assets/Vector.png";
-import image2 from "../../assets/rate.png";
+import image2 from "../../assets/Rate.png";
 
 
 
